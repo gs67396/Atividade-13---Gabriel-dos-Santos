@@ -84,8 +84,10 @@ repita
    valido <- verdadeiro
     mes <- 12
   outrocaso
+   Escreval("INVALIDO")
    valido <- falso
  fimescolha
+ate valido = verdadeiro
 EScreval("Buscar voos disponiveis ate que dia do mes?")
 leia(dia)
 se mes = 2 entao
@@ -100,7 +102,7 @@ fimse
 se dia> diamax entao
  dia <- diamax
 fimse
-ate valido = verdadeiro
+
 escreval("Escolha qual seria seu local de partida.")
 escreval("[1] Joinville (JOI)")
 escreval("[2] São paulo (GRU)")
